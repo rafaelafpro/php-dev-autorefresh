@@ -6,7 +6,7 @@ require '../src/AutoRefresh.php';
 use AutoRefresh\AutoRefresh;
 
 // Define o diretório ou arquivo a ser monitorado (exemplo: views/)
-$directoryToWatch = '../views';
+$directoryToWatch = '/';
 
 // Cria uma instância do AutoRefresh
 $autoRefresh = new AutoRefresh($directoryToWatch);
@@ -25,12 +25,15 @@ if (isset($_GET['action']) && $_GET['action'] === 'last_modified') {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Auto Refresh Example</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>Auto Refresh Example - HOT RELOAD 🔥</title>
 </head>
 
-<body>
-  <h1>Exemplo de Auto Refresh com PHP e JavaScript</h1>
-  <p>Este exemplo recarrega a página automaticamente quando há alterações no diretório monitorado.</p>
+<body class="bg-slate-900 h-screen flex flex-col justify-center items-center text-gray-200 gap-y-6">
+  <h1 class="text-3xl font-bold">HOT RELOAD 🔥</h1>
+  <h1 class="text-3xl font-bold">Exemplo de Auto Refresh com PHP e JavaScript</h1>
+  <p class="text-gray-400">Este exemplo recarrega a página automaticamente quando há alterações no diretório monitorado.</p>
 
   <!-- Inclui o script JavaScript de auto-refresh -->
   <script src="../src/assets/auto_refresh.js"></script>
