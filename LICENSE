@@ -1,0 +1,10 @@
+
+### 5. Licença e Disponibilização
+
+Escolha uma licença permissiva como [MIT](https://opensource.org/licenses/MIT) ou [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0). Com isso, o projeto estará preparado para publicação.
+
+### 6. Publicação e Divulgação
+
+Publique o projeto no GitHub ou GitLab e registre-o em plataformas como [Packagist](https://packagist.org/) para instalação via Composer, facilitando a adoção por outros desenvolvedores.
+
+Esse formato transformará a funcionalidade em uma solução versátil e de fácil adoção por outros desenvolvedores.
